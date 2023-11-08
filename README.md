@@ -12,7 +12,7 @@ Several pre-processing strategies are explored to enhance accuracy:
 
 1. **No Pre-processing**: Without any pre-processing, an average accuracy of 80.75% is achieved.
 2. **Tokenization**: Tokenizing the text improves accuracy to 81.3%, as it removes punctuation and aids in better word recognition.
-3. **Stopwords Removal**: Removing stop words further improves accuracy to 81.3%, reducing noise and enhancing prediction quality.
+3. **Stopwords Removal**: Removing stop words further improves accuracy, reducing noise and enhancing prediction quality.
 4. **Alphabetic Filtering**: Focusing on strings containing only alphabets decreases accuracy due to the loss of informative features.
 5. **Stemmatization**: Reducing words to base forms (stemming) decreases noise and increases accuracy.
 6. **Lemmatization**: Lemmatization coupled with tokenization and stopword removal achieves the highest accuracy, outperforming other strategies.
